@@ -4,7 +4,7 @@ Create game 2d game assets locally with AI. Leverage your unused computer power 
 
 ## What's this?
 
-World Creation Engine is a tool that leverages AI to generate game assets. It runs on your local machine, and has been tested using LM Studio with Llama 3.1 8B for chat completions and Automatic1111's Stable Diffusion Web UI for image creation using superPixelartXLMV1_v10 checkpoint (Based model SD XL) which can be found at https://civitai.com/models/581162/superpixelartxlmv1
+World Creation Engine is a tool that leverages AI to generate game assets. It runs on your local machine, and has been tested using LM Studio with Llama 3.1 8B for chat completions and Automatic1111's Stable Diffusion Web UI for image creation using superPixelartXLMV1_v10 checkpoint (SD XL) which can be found at https://civitai.com/models/581162/superpixelartxlmv1
 
 ## Features
 
