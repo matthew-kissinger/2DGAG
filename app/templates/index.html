@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2DGAG</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>2D Game Asset Generator</h1>
+    <p class="intro-text">Harness the power of creation. Shape worlds with your words. Breathe life into new realms.</p>
+    <div id="auto-approve-container">
+        <input type="checkbox" id="auto-approve" name="auto-approve">
+        <label for="auto-approve">Auto-approve all steps</label>
+    </div>
+    <div id="game-world-generator" class="step-container">
+        <h2>Step 1: Envision Your World</h2>
+        <textarea id="world-description" rows="6" placeholder="Describe the essence of your world..."></textarea>
+        <button id="generate-world">Manifest World</button>
+        <div id="game-world-result"></div>
+        <button id="approve-assets">Approve Creations</button>
+        <div id="auto-approve-assets-container" style="display: none;">
+            <input type="checkbox" id="auto-approve-assets" name="auto-approve-assets">
+            <label for="auto-approve-assets">Auto-approve assets</label>
+        </div>
+    </div>
+    <div id="aesthetic-theme-generator" class="step-container" style="display: none;">
+        <h2>Step 2: Define Aesthetic Theme</h2>
+        <button id="generate-aesthetic">Craft Aesthetic Theme</button>
+        <div id="aesthetic-theme-result"></div>
+        <button id="approve-aesthetic">Approve Aesthetic</button>
+    </div>
+    <div id="image-prompt-generator" class="step-container" style="display: none;">
+        <h2>Step 3: Craft Visual Essence</h2>
+        <button id="generate-prompts">Forge Image Prompts</button>
+        <div id="image-prompts-result"></div>
+        <button id="approve-prompts" style="display: none;">Approve Prompts</button>
+    </div>
+    <div id="image-generator" class="step-container" style="display: none;">
+        <h2>Step 4: Materialize Creations</h2>
+        <button id="generate-images">Bring Forth Images</button>
+        <div id="image-generation-result"></div>
+    </div>
+    <button id="save-game" style="display: none;">Save Game World</button>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

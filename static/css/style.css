@@ -1,0 +1,131 @@
+body {
+    font-family: 'Cinzel', serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #ffd700;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #4a4e69;
+    border-radius: 8px;
+    resize: vertical;
+    background-color: #16213e;
+    color: #e0e0e0;
+    font-family: 'Lora', serif;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #4a4e69;
+    color: #ffd700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #ffd700;
+    color: #1a1a2e;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
+}
+
+#game-world-result, #image-prompts-result {
+    margin-top: 20px;
+    border: 1px solid #4a4e69;
+    padding: 20px;
+    background-color: #16213e;
+    border-radius: 8px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+#image-generation-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.image-container {
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 8px;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.image-container p {
+    display: none;
+}
+
+#image-prompts-result {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+}
+
+#image-prompts-result pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.step-container {
+    background-color: #16213e;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.regenerate-btn {
+    background-color: #3a506b;
+    margin-top: 10px;
+}
+
+.regenerate-btn:hover {
+    background-color: #5bc0be;
+}
+
+#aesthetic-theme-result {
+    margin-top: 20px;
+    border: 1px solid #4a4e69;
+    padding: 20px;
+    background-color: #16213e;
+    border-radius: 8px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}

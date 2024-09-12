@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+app/__pycache__/
+app/routes/__pycache__/
+app/services/__pycache__/
+app/utils/__pycache__/
