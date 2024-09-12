@@ -1,4 +1,4 @@
-# World Creation Engine
+# 2D Game Asset Generator
 
 Create game 2d game assets locally with AI. Leverage your unused computer power to generate assets for your games.
 
