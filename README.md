@@ -1,3 +1,10 @@
+> **🜂 Genesis of Kiln Studio (Sept 2024).**
+> This is the first link in a 21-month lineage — **2DGAG → PixForge → DreamPlot → pixel-forge → [Kiln Studio](https://kilnstudio.tools)** — that began as this local Llama-3.1 + Stable Diffusion asset generator and grew into a production text-to-3D platform.
+>
+> **This repo is a frozen, read-only reference artifact.** The live tool is **[kilnstudio.tools](https://kilnstudio.tools)** (invite-only).
+
+---
+
 # 2D Game Asset Generator
 
 Create game 2d game assets locally with AI. Leverage your unused computer power to generate assets for your games.
@@ -37,9 +44,9 @@ World Creation Engine is a tool that leverages AI to generate game assets. It ru
 
 This is a work in progress. It might not replace your entire art team yet, but we're getting there.
 
-## Contributing
+## Status
 
-Got ideas? Found a bug? Contributions are welcome. Open an issue or submit a PR.
+Archived and frozen as a historical reference (Sept 2024). Not maintained — active development moved to [Kiln Studio](https://kilnstudio.tools).
 
 ## License
 
